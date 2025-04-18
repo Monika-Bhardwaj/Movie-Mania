@@ -14,16 +14,19 @@
 
 📁 Project Structure
 
-├── public/             # Static files
+📦 Movie-Mania/
+├── public/
 ├── src/
-│   ├── components/     # Reusable React components
-│   ├── App.jsx         # Main component
-│   └── main.jsx        # Entry point for React
-├── .eslintrc.cjs       # ESLint configuration
-├── index.html          # HTML template
-├── package.json        # Project metadata & dependencies
-├── vite.config.js      # Vite configuration
+│   ├── components/
+│   │   ├── MovieCard.jsx      // Displays each movie
+│   │   └── SearchBar.jsx      // Search input field
+│   ├── App.jsx                // Main App logic
+│   └── main.jsx               // React root entry
+├── index.html
+├── package.json
+├── vite.config.js
 └── README.md
+
 
 
 🛠️ Tech Stack :

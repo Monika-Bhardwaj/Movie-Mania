@@ -42,7 +42,7 @@
     Follow these steps to run the project locally:
 
 1. Clone the Repository :
-    git clone https://github.com/techwithtim/Learn-React-In-One-Project.gi
+    git clone https://github.com/Monika-Bhardwaj/Movie-Mania.git
     cd "Movie Mania"
 
 2. Install Dependencies :
@@ -50,8 +50,6 @@
 
 3. Start Development Server :
     npm run dev
-
-4. Open your browser and navigate to http://localhost:3000 to view the application.
 
 
 💡 Useful Scripts

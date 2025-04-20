@@ -14,6 +14,7 @@
 
 📁 Project Structure
 
+<<<<<<< HEAD
 📦 Movie-Mania/
 ├── public/
 ├── src/
@@ -29,6 +30,20 @@
 
 
 
+=======
+├── public/             # Static files
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── App.jsx         # Main component
+│   └── main.jsx        # Entry point for React
+├── .eslintrc.cjs       # ESLint configuration
+├── index.html          # HTML template
+├── package.json        # Project metadata & dependencies
+├── vite.config.js      # Vite configuration
+└── README.md
+
+
+>>>>>>> f2a2b16 (Initial commit with router fix)
 🛠️ Tech Stack :
 
     React.js (JavaScript library for building UI)
@@ -45,7 +60,11 @@
     Follow these steps to run the project locally:
 
 1. Clone the Repository :
+<<<<<<< HEAD
     git clone https://github.com/Monika-Bhardwaj/Movie-Mania.git
+=======
+    git clone https://github.com/techwithtim/Learn-React-In-One-Project.gi
+>>>>>>> f2a2b16 (Initial commit with router fix)
     cd "Movie Mania"
 
 2. Install Dependencies :
@@ -54,6 +73,11 @@
 3. Start Development Server :
     npm run dev
 
+<<<<<<< HEAD
+=======
+4. Open your browser and navigate to http://localhost:3000 to view the application.
+
+>>>>>>> f2a2b16 (Initial commit with router fix)
 
 💡 Useful Scripts
 

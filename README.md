@@ -52,7 +52,11 @@
 3. Start Development Server :
     npm run dev
 
-4. Open your browser and navigate to http://localhost:5173 to view the application.
+4. Open your browser and navigate to http://localhost:5181 to view the application.
+
+
+🈯 Functioning:
+✨  Click the Home option and start interacting with the UI!
 
 
 🈯 Functioning:

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-const API_KEY = "";
+const API_KEY = "773e5d56788e34f39ec27f2f939159f7";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export const getPopularMovies = async () => {
@@ -16,23 +15,4 @@ export const searchMovies = async (query) => {
   );
   const data = await response.json();
   return data.results;
-=======
-const API_KEY = "";
-const BASE_URL = "https://api.themoviedb.org/3";
-
-export const getPopularMovies = async () => {
-  const response = await fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`);
-  const data = await response.json();
-  return data.results;
-};
-
-export const searchMovies = async (query) => {
-  const response = await fetch(
-    `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(
-      query
-    )}`
-  );
-  const data = await response.json();
-  return data.results;
->>>>>>> f2a2b16 (Initial commit with router fix)
 };
